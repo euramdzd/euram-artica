@@ -8,7 +8,12 @@
   width: 8px;
   height: 4px;
 }
+@media(max-width:545px){
 
+  ::-webkit-scrollbar {
+  width: 0px;
+  }
+}
 ::-webkit-scrollbar-track {
   background: #f7f7f7;
 }
