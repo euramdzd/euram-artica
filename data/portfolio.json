@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "src": "imgs/cat-01.jpg",
+    "type": "web",
+    "title":"Lorem, ipsum dolor.",
+    "details":" Lorem ipsum, dolor sit amet consectetur adipisicing elit.Laborum reiciendis ratione incidunt quibusdam omnis! Reiciendis consectetur at, vitae rem nobis harum, illum alias, est minima dolore ea illo nihil? Pariatur."
+  },
+  {
+    "id": 2,
+    "src": "imgs/cat-02.jpg",
+    "type": "Graphic",
+    "title":"Lorem, ipsum dolor.",
+    "details":" Lorem ipsum, dolor sit amet consectetur adipisicing elit.Laborum reiciendis ratione incidunt quibusdam omnis! Reiciendis consectetur at, vitae rem nobis harum, illum alias, est minima dolore ea illo nihil? Pariatur."
+
+  },
+  {
+    "id": 3,
+    "src": "imgs/cat-03.jpg",
+    "type": "web",
+    "title":"Lorem, ipsum dolor.",
+    "details":" Lorem ipsum, dolor sit amet consectetur adipisicing elit.Laborum reiciendis ratione incidunt quibusdam omnis! Reiciendis consectetur at, vitae rem nobis harum, illum alias, est minima dolore ea illo nihil? Pariatur."
+  },
+  {
+    "id": 4,
+    "src": "imgs/cat-04.jpg",
+    "type": "photography",
+    "title":"Lorem, ipsum dolor.",
+    "details":" Lorem ipsum, dolor sit amet consectetur adipisicing elit.Laborum reiciendis ratione incidunt quibusdam omnis! Reiciendis consectetur at, vitae rem nobis harum, illum alias, est minima dolore ea illo nihil? Pariatur."
+
+  },
+  {
+    "id": 5,
+    "src": "imgs/cat-05.jpg",
+    "type": "web",
+    "title":"Lorem, ipsum dolor.",
+    "details":" Lorem ipsum, dolor sit amet consectetur adipisicing elit.Laborum reiciendis ratione incidunt quibusdam omnis! Reiciendis consectetur at, vitae rem nobis harum, illum alias, est minima dolore ea illo nihil? Pariatur."
+
+  },
+  {
+    "id": 6,
+    "src": "imgs/cat-06.jpg",
+    "type": "web",
+    "title":"Lorem, ipsum dolor.",
+    "details":" Lorem ipsum, dolor sit amet consectetur adipisicing elit.Laborum reiciendis ratione incidunt quibusdam omnis! Reiciendis consectetur at, vitae rem nobis harum, illum alias, est minima dolore ea illo nihil? Pariatur."
+
+  },
+  {
+    "id": 7,
+    "src": "imgs/cat-07.jpg",
+    "type": "photography",
+    "title":"Lorem, ipsum dolor.",
+    "details":" Lorem ipsum, dolor sit amet consectetur adipisicing elit.Laborum reiciendis ratione incidunt quibusdam omnis! Reiciendis consectetur at, vitae rem nobis harum, illum alias, est minima dolore ea illo nihil? Pariatur."
+
+  },
+  {
+    "id": 8,
+    "src": "imgs/cat-08.jpg",
+    "type": "photography",
+    "title":"Lorem, ipsum dolor.",
+    "details":" Lorem ipsum, dolor sit amet consectetur adipisicing elit.Laborum reiciendis ratione incidunt quibusdam omnis! Reiciendis consectetur at, vitae rem nobis harum, illum alias, est minima dolore ea illo nihil? Pariatur."
+  }
+]

@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artica</title>
+    <!-- FILE CSS BOOTSTRAP  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- FILE CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" href="imgs/logo.png"/>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <h2><a href="index.html"> Artica</a></h2>
+        <span class="bar">
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </span>
+        <ul id="menu">
+          <li><a href="#services"  onclick="hiddMenu()"> SERVICES</a></li>
+          <li><a href="#protfolio" onclick="hiddMenu()"> PORTFOLIO</a></li>
+          <li><a href="#about" onclick="hiddMenu()"> ABOUT</a></li>
+          <li><a href="#skills" onclick="hiddMenu()"> SKILLS</a></li>
+          <li><a href="#blog" onclick="hiddMenu()"> BLOG</a></li>
+          <li><a href="#customers" onclick="hiddMenu()"> CUSTOMERS</a></li>
+          <li><a href="#contact" onclick="hiddMenu()"> CONTACT</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- landing -->
+    <section class="landing">
+      <div class="box-text">
+        <div
+          class="content-title"
+          style="--color-1: white; --color-2: var(--main-color)"
+        >
+          <div class="container">
+            <h2>Artica</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nemo
+              pariatur corporis similique, <br/>praesentium ipsum id perferendis
+              dolores, in saepe delectus<br/> earum. eaque nesciunt nisi non esse
+              recusandae.
+            </p>
+            <a href=""> Parshase Theme </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section id="services" class="services">
+      <div class="container">
+        <div
+          class="content-title"
+          style="--color-1: var(--main-color); --color-2: white"
+        >
+          <div class="container">
+            <h3>FUlly Layered and customizable template</h3>
+            <h4>Our services</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nemo
+              pariatur corporis similique, praesentium ipsum id perferendis
+              dolores,<br/> in saepe delectus earum. eaque nesciunt nisi non esse
+              recusandae.
+            </p>
+          </div>
+        </div>
+        <div class="box-services">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="box">
+                <div class="icon"><i class="fa-brands fa-css3"></i></div>
+                <h4>HTML&CSS</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat, similique.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="box">
+                <div class="icon"><i class="fa-solid fa-pen-nib"></i></div>
+                <h4>GRAPHIC DESIGN</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat, similique.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="box">
+                <div class="icon"><i class="fa-solid fa-clock"></i></div>
+                <h4>ON TIME PROJECTS</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat, similique.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="box">
+                <div class="icon"><i class="fa-solid fa-life-ring"></i></div>
+                <h4>FULLY SUPPORT</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat, similique.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="line">
+      <div class="container">
+        <p>
+          Design must reflect the practical and aesthetic in business but above
+          all... good design must primarily serve people
+        </p>
+        <span> Themas J.Watson</span>
+      </div>
+    </section>
+
+    <!-- protfolio -->
+    <section class="protfolio" id="protfolio">
+      <div class="container">
+        <div
+          class="content-title"
+          style="--color-1: var(--main-color); --color-2: white"
+        >
+          <div class="container">
+            <h3>FUlly Layered and customizable template</h3>
+            <h4>Our PORTFOLIO</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nemo
+              pariatur corporis similique, praesentium ipsum id perferendis
+              dolores,<br/> in saepe delectus earum. eaque nesciunt nisi non esse
+              recusandae.
+            </p>
+          </div>
+        </div>
+        <div class="box-protfolio">
+          <div class="nav">
+            <li data-type="all" class="act">ALL</li>
+          </div>
+          <div class="row" id="content-protfolio"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- work -->
+    <div class="work">
+      <div class="container">
+        <div class="icon"><i class="fa-solid fa-arrow-down"></i></div>
+        <h3>WE LOVE our work</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+          aperiam totam sequi<br/> mollitia doloribus voluptatum amet explicabo. Sed,
+          assumenda dolore?
+        </p>
+        <a href=""> Parshase Theme</a>
+      </div>
+    </div>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div
+          class="content-title"
+          style="--color-1: white; --color-2: var(--main-color)"
+        >
+          <div class="container">
+            <h3>FULLY RESponsive design</h3>
+            <h4>ABout us</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nemo
+              pariatur corporis similique, praesentium ipsum id perferendis
+              dolores,<br/> in saepe delectus earum. eaque nesciunt nisi non esse
+              recusandae.
+            </p>
+          </div>
+        </div>
+        <div class="content-about">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6 col-6">
+              <div class="box">
+                <div class="box-img">
+                  <img src="imgs/avatar-01.png" alt="" />
+                  <div class="details">
+                    <div class="icon">
+                      <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                  </div>
+                </div>
+                <h2>Hohan Doe</h2>
+                <span> Web Devloper</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-6">
+              <div class="box">
+                <div class="box-img">
+                  <img src="imgs/avatar-02.png" alt="" />
+                  <div class="details">
+                    <div class="icon">
+                      <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                  </div>
+                </div>
+                <h2>Doe Hohan</h2>
+                <span> Web </span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-6">
+              <div class="box">
+                <div class="box-img">
+                  <img src="imgs/avatar-03.png" alt="" />
+                  <div class="details">
+                    <div class="icon">
+                      <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                  </div>
+                </div>
+                <h2>Hohan HH</h2>
+                <span> Web Dev loper</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-6">
+              <div class="box">
+                <div class="box-img">
+                  <img src="imgs/avatar-04.png" alt="" />
+                  <div class="details">
+                    <div class="icon">
+                      <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                  </div>
+                </div>
+                <h2>JJ Doe</h2>
+                <span> Devloper</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="box-title">
+          <h3>WE have skills</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            aperiam totam sequi mollitia <br/>doloribus voluptatum amet explicabo.
+            Sed, assumenda dolore?
+          </p>
+        </div>
+        <div class="content-skills">
+          <div class="row">
+            <div class="col-lg-6 col-sm">
+              <h3>Our Company</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Deserunt ullam distinctio perspiciatis, facilis dolore, sapiente
+                ipsam nulla rerum temporibus nesciunt, tempore cum minus!
+                Nostrum, minima? Animi sit veniam hic cumque.
+              </p>
+              <a href=""> Read More</a>
+            </div>
+            <div class="col-lg-6 col-sm">
+              <h3>Our Skills</h3>
+              <div class="prog-ress">
+                <span data-width="80%">HTML&CSS</span>
+              </div>
+              <div class="prog-ress">
+                <span data-width="50%">JavaScript</span>
+              </div>
+              <div class="prog-ress">
+                <span data-width="60%">Graphic Design</span>
+              </div>
+              <div class="prog-ress">
+                <span data-width="70%">Php</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="stats">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="box">
+              <div class="icon">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="details">
+                <p data-count="230">0</p>
+                <span>Customers</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="box">
+              <div class="icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div class="details">
+                <p data-count="22">0</p>
+                <span>Awards</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="box">
+              <div class="icon">
+                <i class="fa-solid fa-stopwatch"></i>
+              </div>
+              <div class="details">
+                <p data-count="150">0</p>
+                <span
+                  >Completed <br />
+                  Projects</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-6">
+            <div class="box">
+              <div class="icon">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="details">
+                <p data-count="310">0</p>
+                <span>Followers</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- blog -->
+    <section class="blog" id="blog">
+        <div class="container">
+          <div class="content-title" style="--color-1: var(--main-color); --color-2: white">
+            <div class="container">
+              <h3>bootstrap grid ready</h3>
+              <h4>Our blog</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nemo
+                pariatur corporis similique, praesentium ipsum id perferendis
+                dolores,<br/> in saepe delectus earum. eaque nesciunt nisi non esse
+                recusandae.
+              </p>
+            </div>
+          </div>
+          <div class="box-blog">
+            <div class="nav">
+              <li class="act">ALL</li>
+              <li>NewESt</li>
+              <li>oldest</li>
+              <li>most popluar</li>
+            </div>
+            <div class="row" id="content-blog">
+              <div class="col-lg-6">
+                <div class="box">
+                  <img src="imgs/blog1.jpg" alt="" />
+                  <div class="details">
+                    <h2>Great Party we have there</h2>
+                    <span>Published By : John doi</span>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Amet, saepe eligendi temporibus doloremque quia, delectus
+                      mollitia sapiente voluptatum atque molestiae accusamus
+                      dignissimos ratione sed similique, vel praesentium aliquam
+                      iure expedita.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="box">
+                  <img src="imgs/blog2.jpg" alt="" />
+                  <div class="details">
+                    <h2>Great Party we have there</h2>
+                    <span>Published By : John doi</span>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Amet, saepe eligendi temporibus doloremque quia, delectus
+                      mollitia sapiente voluptatum atque molestiae accusamus
+                      dignissimos ratione sed similique, vel praesentium aliquam
+                      iure expedita.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-lg-9 col-sm-12">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="box-2" style="background:url(imgs/blog-3.jpg)">
+                          <div class="details">
+                            <h2>Great Party we have there</h2>
+                            <span>Published By : John doi</span>
+                            <p>
+                              molestiae accusamus dignissimos ratione sed
+                              molestiae accusamus dignissimos ratione sed
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Amet, saepe eligendi temporibus doloremque
+                              quia, delectus mollitia sapiente voluptatum atque
+                              molestiae accusamus dignissimos ratione sed
+                              similique, vel praesentium aliquam iure expedita.
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Amet, saepe eligendi temporibus doloremque
+                              quia, delectus mollitia sapiente voluptatum atque
+                              molestiae accusamus dignissimos ratione sed
+                              similique, vel praesentium aliquam iure expedita.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-sm-6">
+                        <div class="box-2" style="background:url(imgs/blog2.jpg)">
+                          <div class="details">
+                            <h2>Great Party we have there</h2>
+                            <span>Published By : John doi</span>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Amet, saepe eligendi temporibus doloremque
+                              quia, delectus mollitia sapiente voluptatum atque
+                              molestiae accusamus dignissimos ratione sed
+                              similique, vel praesentium aliquam iure expedita.
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Amet, saepe eligendi temporibus doloremque
+                              quia, delectus mollitia sapiente voluptatum atque
+                              molestiae accusamus dignissimos ratione sed
+                              similique, vel praesentium aliquam iure expedita.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-sm-6">
+                        <div class="box-2" style="background:url(imgs/blog2.jpg)">
+                          <div class="details">
+                            <h2>Great Party we have there</h2>
+                            <span>Published By : John doi</span>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Amet, saepe eligendi temporibus doloremque
+                              quia, delectus mollitia sapiente voluptatum atque
+                              molestiae accusamus dignissimos ratione sed
+                              similique, vel praesentium aliquam iure expedita.
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Amet, saepe eligendi temporibus doloremque
+                              quia, delectus mollitia sapiente voluptatum atque
+                              molestiae accusamus dignissimos ratione sed
+                              similique, vel praesentium aliquam iure expedita.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-12">
+                    <div class="box-3">
+                      <img src="imgs/blog1.jpg" />
+                      <div class="details">
+                        <h2>Great Party we have there</h2>
+                        <span>Published By : John doi</span>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Amet, saepe eligendi temporibus doloremque quia,
+                          delectus mollitia sapiente voluptatum atque molestiae
+                          accusamus dignissimos ratione sed similique, vel
+                          praesentium aliquam iure expedita.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- newsletter -->
+    <div class="newsletter work">
+      <div class="container">
+        <div class="icon"><i class="fa-solid fa-arrow-down"> </i></div>
+        <h3>subscribe to our newsletter</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nemo pariatur corporis similique, praesentium ipsum id
+        </br>perferendis dolores, in saepe delectus earum. eaque nesciunt
+        </p>
+        <form action="">
+          <input type="email" name="" id="" placeholder="Your Mail">
+          <button> Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="customers" id="customers">
+      <div class="container">
+        <h3>Our Customers</h3>
+        <p>adipisicing elit. Eos asperiores voluptate doloremque temporibus at perferendis aliquid veniam, aliquam similique. 
+          Ratione ea quidem consectetur asperiores praesentium!</p>
+          <div class="content-customers">
+            <!--  هنا لازم يكونو عندنا لفوطو نفس حجم  -->
+            <div class="row">
+              <div class="col-lg-2 col-sm-4 col-6 d-flex">
+                <img src="imgs/img1.png " alt="">
+              </div>
+              <div class="col-lg-2 col-sm-4 col-6 d-flex">
+                <img src="imgs/img2.webp" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-4 col-6 d-flex">
+                <img src="imgs/img1.png" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-4 col-6 d-flex">
+                <img src="imgs/img2.webp" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-4 col-6 d-flex">
+                <img src="imgs/img1.png" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-4 col-6 d-flex">
+                <img src="imgs/img2.webp" alt="">
+              </div>
+
+
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="test">
+      <div class="container">
+          <h3>Testmonilas</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nemo pariatur corporis similique, praesentium ipsum id
+          </br>perferendis dolores, in saepe delectus earum. eaque nesciunt
+          </p>
+          <span> Johan Doe</span>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="content-title" style="--color-1: white; --color-2: var(--main-color)">
+          <div class="container">
+            <h3>feel free to ask us anything</h3>
+            <h4>Contact us</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nemo
+              pariatur corporis similique, praesentium ipsum id perferendis
+              dolores,<br/> in saepe delectus earum. eaque nesciunt nisi non esse
+              recusandae.
+            </p>
+          </div>
+        </div>
+        <div class="row box-icon">
+          <div class="col-lg-4 col-sm-4">
+            <div class="box">
+              <div class="icon">
+                <i class="fa-solid fa-house"></i>
+              </div>
+              <h4>addresse</h4>
+              <p>Awesome Street 234,NY</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="box">
+              <div class="icon">
+                <i class="fa-solid fa-message"></i>
+              </div>
+              <h4>MAIL</h4>
+              <p>Example@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="box">
+              <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+                            </div>
+              <h4>Phone</h4>
+              <p>+213123456789</p>
+            </div>
+          </div>
+        </div>
+        <form action="">
+          <div class="row">
+            <div class="col-lg-4 col-sm-4">
+              <input type="text" placeholder="Enter Name">
+            </div>
+            <div class="col-lg-4 col-sm-4" >
+              <input type="text"placeholder="Enter Mail">
+            </div>
+            <div class="col-lg-4 col-sm-4" >
+              <input type="text"placeholder="Enter Subject" >
+            </div>
+            <div>
+              <textarea name="" id="" cols="30" rows="10" placeholder="Enter Message"></textarea>
+            </div>
+            <button type="submit"> Send Massage</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <h2><a href="index.html"> Artica</a></h2>
+        <p> &copy; 2023 Ameur Benahmed | Euram Dz</p>
+      </div>
+    </footer>
+    <div class="button-up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
