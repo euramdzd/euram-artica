@@ -41,7 +41,10 @@ a {
 html {
   font-family: 'Dancing Script', cursive;
 }
-
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
 /* header */
 header {
   z-index: 9;
