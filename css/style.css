@@ -143,6 +143,7 @@ header ul li a:hover {
   width: 400px;
   margin: auto;
   max-width: 98%;
+  overflow:hidden;
   font-size: 33px;
   margin-bottom: 46px;
 }
