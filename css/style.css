@@ -39,6 +39,8 @@ a {
 }
 
 html {
+  width: 100%;
+    overflow-x: hidden;
   font-family: 'Dancing Script', cursive;
 }
 body{
